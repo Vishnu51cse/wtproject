@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+.bob{
+    background-color: #e46753;
+}
+
+.room-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.room {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+}
+
+.room img {
+    max-width: 50%;
+    height: auto;
+}
+
+.room .room-info {
+    padding: 1rem;
+    flex-grow: 1;
+}
+
+.room h3 {
+    margin-top: 0.5rem;
+}
+
+.room .amenities {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.room .rating {
+    font-size: 1.2em;
+    color: #f4c10f; 
+}
+
+.room .price, .room .discount {
+    font-size: 1em;
+    color: #333;
+}
+
+.book-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.btn-primary {
+    width: 100%;
+}
